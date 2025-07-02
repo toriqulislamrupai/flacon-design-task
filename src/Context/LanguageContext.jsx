@@ -28,7 +28,7 @@ const LanguageProvider = ({ children }) => {
     if (language === "bn") {
       document.title = "Demo বাংলাদেশ ";
     } else {
-      document.title = "Demo Project";
+      document.title = "FALCON";
     }
   }, [language]);
 

@@ -11,7 +11,11 @@ const MainLayout = () => {
       {/* globalLoader */}
       {navigation.state === "loading" && <Loader />} {/* 👈 show loader */}
       <Header />
+      <div className="">
+
+      
       <Outlet />
+      </div>
       <Footer />
     </div>
   );

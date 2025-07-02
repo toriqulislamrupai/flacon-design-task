@@ -4,12 +4,12 @@ import "./index.css";
 import { RouterProvider } from "react-router-dom";
 
 import router from "./routes/Router";
-import LanguageProvider from "./Context/LanguageContext";
+import { CartProvider } from "./Context/CartContext";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-   <LanguageProvider>
+    <CartProvider>
       <RouterProvider router={router} />
-      </LanguageProvider>
+      </CartProvider>
   </React.StrictMode>
 );
