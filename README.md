@@ -62,7 +62,7 @@ cd flacon-design-task
 npm install
 npm run dev
 
-```Using Netlify Dev (Optional):
+⚙️ Using Netlify Dev (Optional):
 Make sure you have the Netlify CLI installed:
 npm install -g netlify-cli
 Then run locally with:
